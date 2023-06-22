@@ -12,7 +12,7 @@ async function main() {
     core.notice("This is a notice");
     core.warning("This is a warning");
     core.error("This is an error");
-        const octokit = github.getOctokit(GITHUB_TOKEN);
+    const octokit = github.getOctokit(GITHUB_TOKEN);
 
     // get the context from the github package
     const { context } = require('@actions/github')
