@@ -10,3 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: smiti6812/JavascriptRepo@main
+        with:
+           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+           input_1: "testing testing 1 2 3"
