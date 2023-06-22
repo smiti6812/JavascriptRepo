@@ -11,5 +11,5 @@ jobs:
     steps:
       - uses: smiti6812/JavascriptRepo@main
         with:
-           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+           GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
            input_1: "testing testing 1 2 3"
