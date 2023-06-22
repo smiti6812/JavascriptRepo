@@ -1,0 +1,24 @@
+{
+  "name": "javascriptrepo",
+  "version": "1.0.0",
+  "description": "Using a terminal program, clone the repo to your local system and `cd` into the directory.\r 1. Confirm that you have `node` and `npm` installed with the following commands:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smiti6812/JavascriptRepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smiti6812/JavascriptRepo/issues"
+  },
+  "homepage": "https://github.com/smiti6812/JavascriptRepo#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1"
+  }
+}
