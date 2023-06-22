@@ -9,9 +9,9 @@ async function main() {
     const input_1 = core.getInput('input_1');
 
     core.info("INFO: input_1 = " + input_1);
-    core.notice("This is a notice");
-    core.warning("This is a warning");
-    core.error("This is an error");
+   // core.notice("This is a notice");
+   // core.warning("This is a warning");
+   // core.error("This is an error");
     const octokit = github.getOctokit(GITHUB_TOKEN);
 
     // get the context from the github package
